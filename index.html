@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <title>LeetMatrics</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Heading -->
+        <h1 class="heading">LEETMATRICS</h1>
+
+        <!-- User Input -->
+        <div class="user">
+
+            <label for="input">Enter Your Leet Code Username:</label>
+
+            <div class="user-input">
+
+                <input type="text" id="input" placeholder="Enter Username....">
+                <button id="search-btn">Search</button>
+
+            </div>
+
+        </div>
+
+        <!-- Statistics -->
+         <div class="stat">
+
+            <div class="stat-progress">
+
+                <!-- For Easy Attemped -->
+                <div class="progress-item">
+
+                    <div class="easy-progrss circle">
+                        <span id="easy"></span>
+                        <div class="text">Easy</div>
+                    </div>
+
+                </div>
+
+                <!-- For Medium Attemped -->
+                <div class="progress-item ">
+
+                    <div class="medium-progrss circle">
+                        <span id="medium"></span>
+                        <div class="text">Medium</div>
+                    </div>
+
+                </div>
+
+                <!-- For Hard Attemped -->
+                <div class="progress-item">
+
+                    <div class="hard-progrss circle">
+                        <span id="hard"></span>
+                        <div class="text">Hard</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="stat-card">
+
+                <!-- polputate directly in JS -->
+
+            </div>
+
+         </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
